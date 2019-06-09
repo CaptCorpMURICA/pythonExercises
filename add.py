@@ -50,3 +50,18 @@
                     few days. Don't peek at the answers before attempting to solve this on your own.
 """
 
+
+def add(m1, m2):
+    if len(m1) != len(m2):
+        raise ValueError("Given matrices are not the same size.")
+    for i in range(0, len(m1)):
+        if len(m1[i]) != len(m2[i]):
+            raise ValueError("Given matrices are not the same size.")
+        for j in range(0, len(m1[0])):
+            m1[i][j] = (m1[i][j] + m2[i][j])
+    return m1
+
+
+matrix1 = [[1, -2], [-3, 4]]
+matrix2 = [[2, -1], [0, -1]]
+add(matrix1, matrix2)
