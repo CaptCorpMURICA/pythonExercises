@@ -1,4 +1,4 @@
-**Assigned from Mixed Level on 06/05/2019**
+# Assigned from Mixed Level on 06/05/2019
 
 I'd like you to write a function that accepts two lists-of-lists of numbers and returns one list-of-lists with each of the corresponding numbers in the two given lists-of-lists added together.
 
@@ -19,7 +19,7 @@ Before attempting any bonuses, I'd like you to put some effort into figuring out
 
 There are two bonuses this week.
 
-**Bonus 1**
+### Bonus 1
 
 For the first bonus, modify your add function to accept and "add" any number of lists-of-lists. ✔️
 ```
@@ -27,7 +27,7 @@ For the first bonus, modify your add function to accept and "add" any number of 
 [[8, 8], [7, 7]]
 ```
 
-**Bonus 2**
+### Bonus 2
 
 For the second bonus, make sure your add function raises a ValueError if the given lists-of-lists aren't all the same shape. ✔️
 ```
@@ -39,7 +39,7 @@ Traceback (most recent call last):
 ValueError: Given matrices are not the same size.
 ```
 
-**Hints**
+## Hints
 
 Hints for when you get stuck (hover over links to see what they're about):
 
@@ -50,7 +50,7 @@ Hints for when you get stuck (hover over links to see what they're about):
 5. [More discussion on accepting any number of arguments](https://stackoverflow.com/questions/36901/what-does-double-star-asterisk-and-star-asterisk-do-for-parameters/36908#36908)
 6. [Raising an exception in Python](https://stackoverflow.com/questions/2052390/manually-raising-throwing-an-exception-in-python)
 
-**Tests**
+## Tests
 
 Automated tests for this week's exercise [can be found here](https://www.pythonmorsels.com/exercises/cb8fbdd52cf14f8cb31df4f06343cccf/tests/). You'll need to write your function in a module named add.py next to the test file. To run the tests you'll run "python test_add.py" and check the output for "OK". You'll see that there are some "expected failures" (or "unexpected successes" maybe). If you'd like to do the bonus, you'll want to comment out the noted lines of code in the tests file to test them properly.
 
