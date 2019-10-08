@@ -1,5 +1,5 @@
 # Solution: Circle
-06/10/2019
+###### 06/10/2019
 
 Hello!
 
@@ -83,7 +83,7 @@ class Circle:
 ```
 With this new class, whenever the area and diameter attributes are accessed, the corresponding methods will be executed and the returned value will be provided as the value of the accessed attribute.
 
-If you've never seen properties before, you should definitely look them up. They're Python's preferred equivalent to getter and setter methods (which are popular in the Java world for example).
+**If you've never seen properties before, you should definitely look them up.** They're Python's preferred equivalent to getter and setter methods (which are popular in the Java world for example).
 
 Let's attempt the second bonus now.
 
