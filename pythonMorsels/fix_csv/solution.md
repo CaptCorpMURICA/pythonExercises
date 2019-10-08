@@ -1,5 +1,5 @@
 # Solution: fix_csv.py
-## 06/17/2019
+###### 06/17/2019
 Hey!
 
 If you haven't attempted to solve `fix_csv.py` yet, close this email and go do that now before reading on. If you have attempted solving `fix_csv.py`, read on...
