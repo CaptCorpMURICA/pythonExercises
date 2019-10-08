@@ -1,3 +1,6 @@
+# Solution: add
+###### 06/05/2019
+
 If you haven't attempted to solve add yet, close this email and go do that now before reading on. If you have attempted solving add, read on...
 
 This function has to make a new list and that new list has to have more new lists inside it. And we're going to need to loop over our old lists of lists while doing that.
