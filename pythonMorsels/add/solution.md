@@ -16,9 +16,9 @@ def add(matrix1, matrix2):
         combined.append(row)
     return combined
 ```
-If you read my article on looping with indexes in Python you'll see that this isn't the best way to loop over two lists in Python (in fact it isn't even the best way to loop with indexes in general).
+If you read my article on [looping with indexes in Python](http://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python/) you'll see that this isn't the best way to loop over two lists in Python (in fact it isn't even the best way to loop with indexes in general).
 
-Python's zip function can be handy for looping over two lists at the same time.
+Python's `zip` function can be handy for looping over two lists at the same time.
 ```
 def add(matrix1, matrix2):
     """Add corresponding numbers in given 2-D matrices."""
@@ -30,9 +30,9 @@ def add(matrix1, matrix2):
         combined.append(row)
     return combined
 ```
-Notice we're using zip twice because we need to loop over two lists at once for both the outer lists and the inner lists.
+Notice we're using `zip` twice because we need to loop over two lists at once for both the outer lists and the inner lists.
 
-Note that we have hard-coded indexes here. We can make our code more readable by embracing multiple assignment in Python instead of hard-coding indexes.
+Note that we have hard-coded indexes here. We can make our code more readable by [embracing multiple assignment in Python](http://treyhunner.com/2018/03/tuple-unpacking-improves-python-code-readability/) instead of hard-coding indexes.
 ```
 def add(matrix1, matrix2):
     """Add corresponding numbers in given 2-D matrices."""
@@ -84,7 +84,7 @@ def add(matrix1, matrix2):
         ])
     return combined
 ```
-If you're curious about how to copy-paste from a for loop to a comprehension read my article on list comprehensions.
+If you're curious about how to copy-paste from a for loop to a comprehension read [my article on list comprehensions](http://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/).
 
 I like to start by writing my comprehensions on one line of code. This one might be short enough to be readable on one line though:
 ```
@@ -114,13 +114,13 @@ def add(matrix1, matrix2):
 ```
 But this definitely isn't easier than splitting this over multiple lines, so I prefer the multi-line solution.
 
-Bonus #1
+### Bonus #1
 
 Okay let's try to solve the first bonus.
 
 For the first bonus we need to accept any number of matrices.
 
-To do this we'll need to accept any number of arguments to our function and pass any number of arguments to the zip function. We can use the * operator for this.
+To do this we'll need to accept any number of arguments to our function and pass any number of arguments to the `zip` function. We can use [the * operator](https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/) for this.
 ```
 def add(*matrices):
     """Add corresponding numbers in given 2-D matrices."""
@@ -160,7 +160,7 @@ def add(*matrices):
 ```
 Notice that the existence of the sum function and the fact that the zip function accepts any number of arguments were particularly helpful here. We couldn't have written this code as comprehensions without these essential helper functions.
 
-Bonus #2
+### Bonus #2
 
 For the second bonus, we were supposed to raise a ValueError exception when our lists-of-lists were different shapes.
 
@@ -215,13 +215,13 @@ def add(*matrices):
         raise ValueError("Given matrices are not the same size.") from e
 This one is somewhat clever and may not be the clearest answer.
 
-Python's built-in zip function stops at the shortest list when zipping.
+Python's built-in `zip` function stops at the shortest list when zipping.
 
-The zip_longest function in the itertools module uses a fill value to return missing items so the resulting list is as long as the longest gives list.
+The `zip_longest` function in the `itertools` module uses a fill value to return missing items so the resulting list is as long as the longest gives list.
 
-The default fill value for zip_longest is None, so looping over None would fail and adding None to a number would fail too. In both cases we'd get a TypeError which is why we're catching a TypeError to handle the case where matrices aren't the same size.
+The default fill value for `zip_longest` is `None`, so looping over `None` would fail and adding `None` to a number would fail too. In both cases we'd get a `TypeError` which is why we're catching a `TypeError` to handle the case where matrices aren't the same size.
 
-That raise X from Y syntax we're using is a Python 3 feature to make tracebacks more clear.
+That `raise X from Y` syntax we're using is a Python 3 feature to make tracebacks more clear.
 
 Let's take a look at one more answer:
 ```
@@ -238,7 +238,7 @@ def add(*matrices):
         for rows in zip(*matrices)
     ]
 ```
-Here we're using a get_shape function to get our list of list lengths for each list and we're checking whether the shapes of each matrix is the same as the shape of the first one (matrices[0]).
+Here we're using a `get_shape` function to get our list of list lengths for each list and we're checking whether the shapes of each matrix is the same as the shape of the first one (`matrices[0]`).
 
 This is my favorite of the answers to the second bonus, but I don't find any of them considerably more clear or succinct than the others.
 
