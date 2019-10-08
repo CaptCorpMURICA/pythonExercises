@@ -23,7 +23,7 @@ Here we're setting all of our attributes in our initializer method, which gets r
 This answer is missing two features that we need: it doesn't default the radius value to 1 (radius is required) and it doesn't have a useful string representation.
 
 The default string representation of our class looks something like this:
-`
+```
 >>> c = Circle(1)
 >>> c
 <circle.Circle object at 0x7f75816c48d0>
