@@ -1,5 +1,5 @@
 # fix_csv.py
-## Assigned from Mixed Level on 06/17/2019
+#### Assigned from Mixed Level on 06/17/2019
 Hello!
 
 This week we're going to normalize CSV files by writing a program, fix_csv.py, that turns a pipe-delimited file into a comma-delimited file. I'll explain how it should work by example.
