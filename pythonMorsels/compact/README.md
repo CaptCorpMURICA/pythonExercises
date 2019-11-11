@@ -43,8 +43,8 @@ Hints for when you get stuck (hover over links to see what they're about):
 1. [Looping with indexes in Python](https://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python/)
 2. [A solution for the base problem](https://stackoverflow.com/a/49182346/2633215)
 3. [Using a sentinel value while looping](https://treyhunner.com/2019/03/unique-and-sentinel-values-in-python/#Other_cases_for_non-None_placeholders)
-3. [How to create iterators](https://treyhunner.com/2018/06/how-to-make-an-iterator-in-python/)
-4. [An interesting solution](https://stackoverflow.com/a/41511571/2633215)
+4. [How to create iterators](https://treyhunner.com/2018/06/how-to-make-an-iterator-in-python/)
+5. [An interesting solution](https://stackoverflow.com/a/41511571/2633215)
 
 ## Tests
 
