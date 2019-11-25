@@ -67,4 +67,4 @@ Hints for **when you get stuck** (hover over links to see what they're about):
 
 ## Tests
 
-Automated tests for this week's exercise [can be found here](https://www.pythonmorsels.com/exercises/687c35b248d14dd1acab9c6f55cdec20/tests/). You'll need to write your class in a module named easydict.py next to the test file. To run the tests you'll run "python test_easydict.py" and check the output for "OK". You'll see that there are some "expected failures" (or "unexpected successes" maybe). If you'd like to do the bonus, you'll want to comment out the noted lines of code in the tests file to test them properly.
+Automated tests for this week's exercise [can be found here](https://www.pythonmorsels.com/exercises/687c35b248d14dd1acab9c6f55cdec20/tests/). You'll need to write your class in a module named easydict.py next to the test file. To run the tests you'll run `python test_easydict.py` and check the output for `OK`. You'll see that there are some `expected failures` (or `unexpected successes` maybe). If you'd like to do the bonus, you'll want to comment out the noted lines of code in the tests file to test them properly.
