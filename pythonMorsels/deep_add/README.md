@@ -61,4 +61,4 @@ Hints for **when you get stuck** (hover over links to see what they're about):
 
 Automated tests for this week's exercise [can be found here](https://www.pythonmorsels.com/exercises/88b42186daf24c87ae2f7f68910d2933/tests/). You'll need to write your function in a module named deep_add.py next to the test file. To run the tests you'll run "python test_deep_add.py" and check the output for "OK". You'll see that there are some "expected failures" (or "unexpected successes" maybe). If you'd like to do the bonus, you'll want to comment out the noted lines of code in the tests file to test them properly.
 
-Hint I recommend attempting to use recursion for this one (passing the inner lists individually to the same function and passing their inner lists to the same function until there are no more inner lists).
+###### Hint: I recommend attempting to use recursion for this one (passing the inner lists individually to the same function and passing their inner lists to the same function until there are no more inner lists).
