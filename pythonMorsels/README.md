@@ -1,1 +1,26 @@
+# Python Morsels
+Weekly Exercises from the [Python Morsels](https://www.pythonmorsels.com/) platform
 
+## Table of Contents
+1. [add](./add)
+2. [Circle](./circle)
+3. [fix_cxv.py](./fix_csv)
+4. [compact](./compact)
+5. [tail](./tail)
+6. [count_words](./count_words)
+7. [get_earliest](./get_earliest)
+8. [group_by](./group_by)
+9. [is_anagram](./is_anagram)
+10. [multimax](./multimax)
+11. [Point](./point)
+12. [meetup_date](./meetup_date)
+13. [is_perfect_square](./is_perfect_square)
+14. [parse_ranges](./parse_ranges)
+15. [unicode_escape.py](./unicode_escape)
+16. [EasyDict](./easyDict)
+17. [uniques_only](./uniques_only)
+18. [deep_add](./deep_add)
+19. [float_range](./float_range)
+20. [sum_timestamps](./sum_timestamps)
+21. [csv_columns](./csv_columns)
+22. [interleave](./interleave)
